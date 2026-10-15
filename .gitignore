@@ -115,7 +115,7 @@ packages/studio/data/
 # Installed skills (user-specific — agent-installed during sessions).
 # .claude/ = Claude Code, .agents/ = Codex CLI (both auto-discover their project skills
 # from these dirs). The two mirror each other and both need the same "ignore agent-installed
-# skills; keep the six repo-native ones" recipe. See .claude/skills/README.md for the
+# skills; keep the repo-native ones" recipe. See .claude/skills/README.md for the
 # packaging notes.
 
 .claude/*
@@ -129,6 +129,7 @@ packages/studio/data/
 !.claude/skills/seam-craft
 !.claude/skills/captions-overlay
 !.claude/skills/oversized-cursor
+!.claude/skills/short-form-editor
 
 .agents/*
 !.agents/skills
@@ -140,6 +141,7 @@ packages/studio/data/
 !.agents/skills/seam-craft
 !.agents/skills/captions-overlay
 !.agents/skills/oversized-cursor
+!.agents/skills/short-form-editor
 skills-lock.json
 
 # Skills from other PRs (not managed here)

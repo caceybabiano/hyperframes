@@ -1,0 +1,203 @@
+{
+  "palette": {
+    "lav": "#6B46D9",
+    "lavSoft": "#C9B8FF",
+    "accent": "#2E8B3E",
+    "ink": "#1E1B2E",
+    "alert": "#E5484D"
+  },
+  "captions": {
+    "top": 1300,
+    "size": 62,
+    "emphasis": [
+      "$4,999",
+      "3",
+      "1",
+      "2",
+      "4",
+      "$10–15K",
+      "$15–20K",
+      "15K",
+      "20K",
+      "hour",
+      "max",
+      "alone",
+      "month",
+      "more",
+      "600",
+      "first",
+      "ever",
+      "$4,399",
+      "crazy",
+      "million",
+      "2K",
+      "nuts",
+      "400",
+      "hesitant",
+      "scalable",
+      "only",
+      "10K",
+      "BS",
+      "happened",
+      "exact",
+      "follow",
+      "UGC"
+    ],
+    "fix": { "$4,390": "$4,399", "It": "I", "Oh": "oh", "10-15k": "$10–15K", "15-20k": "$15–20K" },
+    "drop": [
+      { "w": "But", "t": 26.54 },
+      { "w": "But", "t": 38.58 }
+    ]
+  },
+  "beats": [
+    {
+      "type": "title",
+      "start": 0,
+      "text": "$4,999",
+      "sub": "in 3 weeks from <b>ONE</b> UGC campaign",
+      "sub_at": "in~-0.05",
+      "rain": "$",
+      "rain_at": "made~-0.05"
+    },
+    {
+      "type": "arc",
+      "start": "bro",
+      "text": "1 HOUR / WEEK",
+      "emoji": "⏰",
+      "emoji_at": "hour",
+      "emoji_xy": [850, 300],
+      "sub": "for this whole campaign",
+      "sub_at": "for@5"
+    },
+    {
+      "type": "checklist",
+      "start": "haven't",
+      "items": [
+        { "text": "under 1 month in", "at": "haven't", "tick": "month" },
+        { "text": "out-earned my part-time job", "at": "and@10.5", "tick": "job" }
+      ]
+    },
+    {
+      "type": "counter",
+      "start": "my@14.3",
+      "label": "the rundown",
+      "caps": "WEEK 1",
+      "prefix": "$",
+      "value": 600,
+      "at": "600~-0.2"
+    },
+    {
+      "type": "bubble",
+      "start": "mind",
+      "html": "first <b>EVER</b> campaign 😳",
+      "at": "first@16.9"
+    },
+    {
+      "type": "counter",
+      "start": "on@18",
+      "label": "the rundown",
+      "caps": "WEEKS 2–3",
+      "prefix": "$",
+      "value": 4399,
+      "at": "$4,399~-0.25",
+      "count_dur": 0.8,
+      "emoji": "💸",
+      "emoji_at": "$4,399~0.4"
+    },
+    {
+      "type": "thoughts",
+      "start": "i@21.4~-0.1",
+      "items": ["how???", "wait what???", "is this real???"]
+    },
+    {
+      "type": "arc",
+      "start": "my@22.6",
+      "text": "1,000,000 VIEWS",
+      "at": "million~-0.15",
+      "emoji": "👀",
+      "emoji_at": "million~0.2",
+      "emoji_xy": [120, 310],
+      "sub": "on 2 videos",
+      "sub_at": "2@24"
+    },
+    {
+      "type": "bubble",
+      "start": "both",
+      "html": "≈ <b>$2K</b> from just those 2",
+      "at": "2k~-0.1",
+      "emoji": "🤯",
+      "emoji_at": "nuts~-0.1",
+      "emoji_xy": [820, 290]
+    },
+    {
+      "type": "bubble",
+      "start": "and@29",
+      "html": "4 meta ads = <b>$400</b> 🤑",
+      "at": "400~-0.2",
+      "sub": "they asked ME to make ads",
+      "sub_at": "video@30"
+    },
+    {
+      "type": "thoughts",
+      "start": "going@34",
+      "items": ["just a side thing...", "am I crazy???", "part-time only??"],
+      "at": ["hesitant~-0.1", "hesitant~0.35", "part-time@36"]
+    },
+    {
+      "type": "arc",
+      "start": "after",
+      "text": "$10–15K / MONTH",
+      "at": "15k~-0.25",
+      "sub": "scalable??",
+      "sub_at": "scalable~-0.1"
+    },
+    {
+      "type": "boxes",
+      "start": "and@42",
+      "label": "only <b>1</b> of my campaigns",
+      "count": 4,
+      "filled": 1,
+      "at": "only@43~-0.1",
+      "rest_at": "4@45.5~-0.1",
+      "fill_at": "campaigns@46~-0.2"
+    },
+    {
+      "type": "counter",
+      "start": "i'm@47",
+      "prefix": "almost $",
+      "value": 10,
+      "suffix": "K",
+      "at": "10k@48~-0.3",
+      "top": 190,
+      "sub": "month 1 total",
+      "sub_at": "i'm@47"
+    },
+    {
+      "type": "bubble",
+      "start": "when",
+      "style": "quote",
+      "html": "“I made 10K in one month”",
+      "at": "oh~-0.1",
+      "stamp": "BS 🙄",
+      "stamp_at": "bs"
+    },
+    { "type": "typed", "start": "until", "text": "until it happened to me" },
+    {
+      "type": "badge",
+      "start": "if@55",
+      "label": "follow the journey",
+      "caps": "GOAL: $15–20K / MONTH",
+      "at": "follow@56~-0.1",
+      "sub": "the exact process, documented",
+      "sub_at": "exact~-0.1"
+    },
+    {
+      "type": "cta",
+      "start": "click",
+      "text": "follow along!!",
+      "click_at": "follow@62.5~0.2",
+      "sub": "see you in the next one &lt;3",
+      "sub_at": "see~-0.1"
+    }
+  ]
+}

@@ -44,6 +44,20 @@ TTS uses the tracked `skills/hyperframes-media/scripts/heygen-tts.mjs`
 - A headless Chrome for HyperFrames rendering (`hyperframes doctor` will
   point out the exact ask if it's missing)
 
+## Short-form editor
+
+The `short-form-editor` skill turns raw talking-head footage into a finished
+9:16 short in the style of a reference video (TikTok / Reels / Shorts link).
+It picks the strongest hook line, cuts filler, repeats and false starts,
+adds jump-cut punch-ins, one-word captions and top-zone graphics, and
+renders through HyperFrames. Everything is driven by two files the agent
+writes: an edit decision list (`edl.json`) and a beats spec (`beats.json`).
+A complete worked example lives in `short-form-editor/references/example/`.
+
+Runtime dependencies: `ffmpeg`, Python 3 with `faster-whisper`, `yt-dlp`
+and `curl_cffi==0.15.0` (`scripts/setup.sh` installs them), plus the
+HyperFrames CLI.
+
 The parallel set at `.agents/skills/` is a byte-identical copy so Codex
 CLI users get the same auto-discover behaviour — keep the two in sync
 when editing. A `scripts/check-skill-mirror.mjs` check enforces this at
